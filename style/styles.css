@@ -31,3 +31,42 @@
   border-radius: 8px;
   border: 1px solid #006a50;
 }
+#banner {
+  background: #f5f5f5;
+}
+#banner .container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+#banner .container .content {
+  border-radius: 24px;
+  background: #c6e4d6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 60px;
+  gap: 64px;
+}
+#banner .container .content .title {
+  color: rgba(14, 14, 14, 0.5);
+  font-size: 24px;
+  font-weight: 500;
+}
+#banner .container .content .heading {
+  color: #0e0e0e;
+  font-size: 56px;
+  font-weight: 700;
+  margin-top: 16px;
+}
+
+#banner .container .content button {
+  border-radius: 8px;
+  background: #006a50;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 17px 34px;
+  margin-top: 24px;
+  border: none;
+}

@@ -4,6 +4,8 @@
   box-sizing: border-box;
   font-family: "Fira Sans", serif;
 }
+/* <!-- -----Nav Section Start------- --> */
+
 #navbar {
   background: #f5f5f5;
 }
@@ -31,6 +33,10 @@
   border-radius: 8px;
   border: 1px solid #006a50;
 }
+/* <!-- -----Nav Section  End------- --> */
+
+/* <!-- ----------Banner Section Start------- --> */
+
 #banner {
   background: #f5f5f5;
 }
@@ -70,3 +76,90 @@
   margin-top: 24px;
   border: none;
 }
+/* <!-- --------------Banner Section End------- --> */
+
+/* <!-- -------------- The Vision of Future Section Start------- --> */
+#vision_of_future {
+  background: #f5f5f5;
+  padding-top: 80px;
+}
+#vision_of_future .container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+#vision_of_future .container .title {
+  color: #0e0e0e;
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 24px;
+}
+#vision_of_future .container .title .discription {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+#vision_of_future .container .card_container {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  padding-top: 32px;
+}
+#vision_of_future .container .card_container .card {
+  padding: 32px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+}
+#vision_of_future .container .card_container .card img {
+  height: 64px;
+  width: 64px;
+}
+#vision_of_future .container .card_container .card h4 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+#vision_of_future .container .card_container .card p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+#vision_of_future .container .card_container .card button {
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: none;
+  margin-top: auto;
+  width: fit-content;
+}
+#vision_of_future .container .card_container .card.one {
+  border: 0px solid #5490f5;
+  background: rgba(84, 144, 245, 0.2);
+}
+#vision_of_future .container .card_container .card.one button {
+  background: #5490f5;
+}
+#vision_of_future .container .card_container .card.two {
+  border: 0px solid #09a15c;
+  background: #c6e4d6;
+}
+#vision_of_future .container .card_container .card.two button {
+  background: #09a15c;
+}
+#vision_of_future .container .card_container .card.three {
+  border: 0px solid #ffc239;
+  background: #f7ebcf;
+}
+#vision_of_future .container .card_container .card.three button {
+  background: #ffc239;
+}
+
+/* <!-- -------------- The Vision of Future Section  End------ --> */

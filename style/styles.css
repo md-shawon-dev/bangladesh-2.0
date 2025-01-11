@@ -187,13 +187,17 @@
   line-height: 24px;
   margin-bottom: 32px;
 }
+#recent_news .container .card_container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
 #recent_news .container .card {
   border-radius: 24px;
   background: #fff;
   display: flex;
   padding: 48px;
   gap: 32px;
-  margin-bottom: 24px;
 }
 #recent_news .container .card > img {
   border-radius: 24px;
@@ -239,3 +243,83 @@
 }
 
 /* -------------------Recent News Section  End-------- */
+
+/* -------------------Donate Today Section Start------------ */
+#donate_today {
+  background: #f5f5f5;
+}
+#donate_today .container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+#donate_today .container .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 24px;
+}
+#donate_today .container .content .title {
+  color: #0e0e0e;
+  font-size: 40px;
+  font-weight: 700;
+}
+#donate_today .container .content .description {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 32px;
+}
+#donate_today .container .amount {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+#donate_today .container .amount button {
+  font-size: 40px;
+  font-weight: 700;
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+  color: rgba(14, 14, 14, 0.8);
+}
+#donate_today .container .amount button.active {
+  background: #c6e4d6;
+}
+#donate_today .container .other_amount {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  text-align: center;
+  margin-top: 32px;
+}
+#donate_today .container .other_amount input {
+  width: 1032px;
+  border: none;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+
+  font-size: 20px;
+  font-weight: 400;
+  padding: 20px 40px;
+  margin-bottom: 32px;
+}
+#donate_today .container .other_amount input::placeholder {
+  color: rgba(14, 14, 14, 0.3);
+  text-align: center;
+}
+#donate_today .container .other_amount button {
+  border-radius: 8px;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  background: #006a50;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 17px 34px;
+}
+/* -------------------Donate Today Section  End------------ */

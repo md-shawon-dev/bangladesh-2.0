@@ -261,6 +261,10 @@
   width: 134px;
   height: 40px;
 }
+#recent_news .container .card img {
+  width: 408px;
+  height: 306px;
+}
 #recent_news .container .card .card_content .date_time {
   color: rgba(14, 14, 14, 0.7);
   font-size: 16px;

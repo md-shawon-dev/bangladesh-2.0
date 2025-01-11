@@ -164,6 +164,46 @@
 
 /* <!-- -------------- The Vision of Future Section  End------ --> */
 
+/* ---------------Quote Section Section  Start-------------- */
+
+#quote_section {
+  padding-top: 80px;
+  background: #f5f5f5;
+}
+#quote_section .container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 48px 24px;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+  background-image: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: 23px 23px;
+}
+#quote_section .container .quote {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 16px;
+}
+#quote_section .container .name {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  padding-bottom: 5px;
+}
+#quote_section .container .position {
+  color: rgba(14, 14, 14, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+/* ---------------Quote Section Section  End-------------- */
+
 /* -------------------Recent News Section Start-------- */
 #recent_news {
   background: #f5f5f5;
